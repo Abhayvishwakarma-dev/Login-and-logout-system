@@ -29,7 +29,7 @@ app.use(express.static('public'));
 // console.log("heloo");
 
 // ✅ FIXED LINE (line 30)
-app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./auth'));
 
 // console.log("hello2");
 
